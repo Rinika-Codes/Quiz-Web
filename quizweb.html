@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="quizstyle.css">
+</head>
+<body style="background-color: #96b296;">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <button id="homeBtn">Home</button>
+    <button id="restartBtn">Restart</button>
+  </nav>
+
+  <!-- Start Page -->
+  <div id="startPage">
+    <h1>Welcome to the Quiz</h1>
+    <p><h2>📌 Rules:</h2> <br>
+      - You have 10 questions.<br>
+      - Each question has multiple choices.<br>
+      - You can restart using the restart button at top right<br>
+      - Navigate the questions using Previous & Next.<br>
+      - Submit after the last question to see your score.
+    </p>
+    <button id="startBtn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Page -->
+  <div id="quizPage" class="hidden">
+    <div id="progress">Question 1/10</div>
+    <div id="questionContainer"></div>
+    <div class="controls">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+      <button id="submitBtn" class="hidden">Submit</button>
+    </div>
+  </div>
+
+  <!-- Score Page -->
+  <div id="scorePage" class="hidden">
+    <h2>Your Score</h2>
+    <p id="scoreText"></p>
+    <button id="goHomeBtn">Go Home</button>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
