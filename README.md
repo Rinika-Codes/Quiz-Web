@@ -31,7 +31,7 @@ Quiz-Web/
 │
 ├── quizweb.html      # Main HTML file
 ├── quizstyle.css       # CSS for styling
-├── script.js       # JavaScript quiz logic
+├── quiz.js       # JavaScript quiz logic
 └── README.md       # Project documentation
 ⚙️ How the Application Works
 
