@@ -29,8 +29,8 @@ JavaScript – Quiz logic and interactivity
 
 Quiz-Web/
 │
-├── index.html      # Main HTML file
-├── style.css       # CSS for styling
+├── quizweb.html      # Main HTML file
+├── quizstyle.css       # CSS for styling
 ├── script.js       # JavaScript quiz logic
 └── README.md       # Project documentation
 ⚙️ How the Application Works
